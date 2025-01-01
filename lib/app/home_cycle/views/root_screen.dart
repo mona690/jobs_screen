@@ -18,7 +18,7 @@ class RootScreen extends StatefulWidget {
 }
 
 class _RootScreenState extends State<RootScreen> {
-  int _currentIndex = 0;
+  int _currentIndex = 2;
 
   final iconList = <Widget>[
     const ImageIcon(
@@ -103,12 +103,12 @@ class _RootScreenState extends State<RootScreen> {
                             ? Icon(
                                 (iconList[index] as Icon).icon,
                                 size: 25,
-                                color: isActive ? mainBlue : Colors.grey,
+                                color: isActive ? white : Colors.grey,
                               )
                             : ImageIcon(
                                 (iconList[index] as ImageIcon).image,
                                 size: 25,
-                                color: isActive ? mainBlue : Colors.grey,
+                                color: isActive ? white : Colors.grey,
                               ),
                       ),
                     ),

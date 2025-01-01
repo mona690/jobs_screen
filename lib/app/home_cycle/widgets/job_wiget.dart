@@ -82,6 +82,7 @@ class JobWidget extends StatelessWidget {
             ],
           ),
           Divider(
+             endIndent: 0.0,
             color: grey,
           ),
           Row(
