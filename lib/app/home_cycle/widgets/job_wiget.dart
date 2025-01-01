@@ -118,7 +118,7 @@ class JobWidget extends StatelessWidget {
                         'الرياض,السعودية',
                         style: TextStyle(
                             color: Colors.grey,
-                            fontSize: 12,
+                            fontSize: 14,
                            fontWeight: FontWeight.w500,
                             fontFamily: 'MadaniArabic'),
                       ),
