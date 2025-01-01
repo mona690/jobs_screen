@@ -92,8 +92,8 @@ class _RootScreenState extends State<RootScreen> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Container(
-                      width: 35,
-                      height: 35,
+                      width: 25,
+                      height: 25,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
                         color: isActive ? mainBlue : Colors.transparent,
@@ -102,12 +102,12 @@ class _RootScreenState extends State<RootScreen> {
                         child: iconList[index] is Icon
                             ? Icon(
                                 (iconList[index] as Icon).icon,
-                                size: 25,
+                                size: 15,
                                 color: isActive ? white : Colors.grey,
                               )
                             : ImageIcon(
                                 (iconList[index] as ImageIcon).image,
-                                size: 25,
+                                size: 15,
                                 color: isActive ? white : Colors.grey,
                               ),
                       ),

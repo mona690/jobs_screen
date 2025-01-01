@@ -141,7 +141,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
                               'افضل تطبيق لايجاد الوظيفة المناسبة',
                               style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 18,
+                                  fontSize: 14,
                                  
                             fontFamily: 'MadaniArabic'),
                               textAlign: TextAlign.center,
@@ -160,7 +160,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
                           'الكل',
                           style: TextStyle(
                             color: mainBlue,
-                            fontSize: 20,
+                            fontSize: 14,
                             fontWeight: FontWeight.w500,
                             fontFamily: 'MadaniArabic'
                           ),
@@ -169,7 +169,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
                           'الوظائف التى تناسبك',
                           style: TextStyle(
                             color: Colors.black,
-                            fontSize: 20,
+                            fontSize: 14,
                            
                             fontFamily: 'MadaniArabic'
                           ),
